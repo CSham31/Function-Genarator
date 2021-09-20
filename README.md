@@ -19,18 +19,18 @@ Contents
 1 INTRODUCTION 2
 
 2 Electronic Design 2
-2.1 Design Specifications.......... 2
+    2.1 Design Specifications.......... 2
 
 3 Wave Genaration 2
-3.1 Square Wave.............. 2
-3.2 Trangular Wave............. 3
-3.3 PWM Wave............... 3
-3.4 Sawtooth Wave............. 3
-3.5 Sine Wave................ 4
+    3.1 Square Wave.............. 2
+    3.2 Trangular Wave............. 3
+    3.3 PWM Wave............... 3
+    3.4 Sawtooth Wave............. 3
+    3.5 Sine Wave................ 4
 
 4 Output Circuit 5
-4.1 Summing Amplifier........... 5
-4.2 Push-Pull amplifier........... 5
+    4.1 Summing Amplifier........... 5
+    4.2 Push-Pull amplifier........... 5
 
 5 Power Supply 5
 
