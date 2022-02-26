@@ -1,0 +1,213 @@
+Removed Pin From Net: NetName=5IN- Pin=S7-1
+Removed Pin From Net: NetName=7IN- Pin=S7-3
+Removed Pin From Net: NetName=AOUT7 Pin=S7-4
+Removed Pin From Net: NetName=AOUT5 Pin=S7-6
+Change Component Designator: OldDesignator=C2 NewDesignator=C7
+Change Component Designator: OldDesignator=C3 NewDesignator=C8
+Change Component Designator: OldDesignator=C4 NewDesignator=C2
+Change Component Designator: OldDesignator=C5 NewDesignator=C9
+Change Component Designator: OldDesignator=C6 NewDesignator=C10
+Change Component Designator: OldDesignator=C7 NewDesignator=C11
+Change Component Designator: OldDesignator=C8 NewDesignator=C12
+Change Component Designator: OldDesignator=C9 NewDesignator=C13
+Change Component Designator: OldDesignator=C10 NewDesignator=C14
+Change Component Designator: OldDesignator=C11 NewDesignator=C15
+Change Component Designator: OldDesignator=C12 NewDesignator=C16
+Change Component Designator: OldDesignator=C13 NewDesignator=C3
+Change Component Designator: OldDesignator=C14 NewDesignator=C4
+Change Component Designator: OldDesignator=C15 NewDesignator=C5
+Change Component Designator: OldDesignator=C16 NewDesignator=C6
+Change Component Designator: OldDesignator=J1 NewDesignator=J4
+Change Component Designator: OldDesignator=J4 NewDesignator=J1
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R2 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R11
+Change Component Designator: OldDesignator=R11 NewDesignator=R12
+Change Component Designator: OldDesignator=R12 NewDesignator=R13
+Change Component Designator: OldDesignator=S7 NewDesignator=S3
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=VR1 NewDesignator=VR3
+Change Component Designator: OldDesignator=VR2 NewDesignator=VR5
+Change Component Designator: OldDesignator=VR3 NewDesignator=VR6
+Change Component Designator: OldDesignator=VR4 NewDesignator=VR7
+Change Component Designator: OldDesignator=VR5 NewDesignator=VR8
+Change Component Designator: OldDesignator=VR6 NewDesignator=VR9
+Added Component: Designator=J2(JST_7p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J3(JST_7p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J7(JST_7p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J8(JST_7p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S1(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S2(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S4(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S5(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S6(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S7(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S8(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S9(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S10(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S11(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S12(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S?(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=AOUT7 Pin=J2-2
+Added Pin To Net: NetName=AOUT5 Pin=J2-3
+Added Pin To Net: NetName=7IN- Pin=J2-4
+Added Pin To Net: NetName=5IN- Pin=J2-5
+Added Pin To Net: NetName=INTA Pin=J2-6
+Added Pin To Net: NetName=2IN+ Pin=J2-7
+Added Pin To Net: NetName=AOUT2 Pin=J3-1
+Added Pin To Net: NetName=4IN+ Pin=J3-2
+Added Pin To Net: NetName=AOUT4 Pin=J3-3
+Added Pin To Net: NetName=PWM in Pin=J3-4
+Added Pin To Net: NetName=INTA Pin=J3-7
+Added Pin To Net: NetName=AOUT2 Pin=J7-1
+Added Pin To Net: NetName=4IN+ Pin=J7-2
+Added Pin To Net: NetName=AOUT4 Pin=J7-3
+Added Pin To Net: NetName=PWM in Pin=J7-4
+Added Pin To Net: NetName=Sine in Pin=J7-5
+Added Pin To Net: NetName=Signal Out Pin=J7-6
+Added Pin To Net: NetName=SO1X Pin=J7-7
+Added Pin To Net: NetName=SO10X Pin=J8-1
+Added Pin To Net: NetName=AOUT7 Pin=J8-2
+Added Pin To Net: NetName=AOUT5 Pin=J8-3
+Added Pin To Net: NetName=7IN- Pin=J8-4
+Added Pin To Net: NetName=5IN- Pin=J8-5
+Added Pin To Net: NetName=INTA Pin=J8-6
+Added Pin To Net: NetName=INTA Pin=S1-5
+Added Pin To Net: NetName=2IN+ Pin=S2-2
+Added Pin To Net: NetName=INTA Pin=S2-5
+Added Pin To Net: NetName=INTA Pin=S3-5
+Added Pin To Net: NetName=2IN+ Pin=S4-2
+Added Pin To Net: NetName=INTA Pin=S4-5
+Added Pin To Net: NetName=2IN+ Pin=S5-2
+Added Pin To Net: NetName=INTA Pin=S5-5
+Added Pin To Net: NetName=2IN+ Pin=S6-2
+Added Pin To Net: NetName=INTA Pin=S6-5
+Added Pin To Net: NetName=Signal Out Pin=S7-1
+Added Pin To Net: NetName=AOUT2 Pin=S7-2
+Added Pin To Net: NetName=AOUT2 Pin=S7-5
+Added Pin To Net: NetName=Signal Out Pin=S7-6
+Added Pin To Net: NetName=Signal Out Pin=S8-1
+Added Pin To Net: NetName=4IN+ Pin=S8-2
+Added Pin To Net: NetName=4IN+ Pin=S8-5
+Added Pin To Net: NetName=Signal Out Pin=S8-6
+Added Pin To Net: NetName=Signal Out Pin=S9-1
+Added Pin To Net: NetName=AOUT4 Pin=S9-2
+Added Pin To Net: NetName=AOUT4 Pin=S9-5
+Added Pin To Net: NetName=Signal Out Pin=S9-6
+Added Pin To Net: NetName=Signal Out Pin=S10-1
+Added Pin To Net: NetName=PWM in Pin=S10-2
+Added Pin To Net: NetName=PWM in Pin=S10-5
+Added Pin To Net: NetName=Signal Out Pin=S10-6
+Added Pin To Net: NetName=Signal Out Pin=S11-1
+Added Pin To Net: NetName=Sine in Pin=S11-2
+Added Pin To Net: NetName=Sine in Pin=S11-5
+Added Pin To Net: NetName=Signal Out Pin=S11-6
+Added Pin To Net: NetName=AOUT5 Pin=S12-1
+Added Pin To Net: NetName=INTB Pin=S12-2
+Added Pin To Net: NetName=AOUT7 Pin=S12-3
+Added Pin To Net: NetName=7IN- Pin=S12-4
+Added Pin To Net: NetName=INTA Pin=S12-5
+Added Pin To Net: NetName=5IN- Pin=S12-6
+Added Pin To Net: NetName=SO1X Pin=S?-1
+Added Pin To Net: NetName=Signal Out Pin=S?-2
+Added Pin To Net: NetName=SO10X Pin=S?-3
+Added Pin To Net: NetName=SO10X Pin=S?-4
+Added Pin To Net: NetName=Signal Out Pin=S?-5
+Added Pin To Net: NetName=SO1X Pin=S?-6
+Change Net Name : Old Net Name=NetC4_1 New Net Name=NetC2_1
+Change Net Name : Old Net Name=NetC5_2 New Net Name=NetC9_2
+Change Net Name : Old Net Name=NetC6_1 New Net Name=NetC10_1
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetC11_2
+Change Net Name : Old Net Name=NetC8_2 New Net Name=NetC12_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC13_2
+Change Net Name : Old Net Name=NetC10_2 New Net Name=NetC14_2
+Change Net Name : Old Net Name=NetC11_2 New Net Name=NetC15_2
+Change Net Name : Old Net Name=NetC12_2 New Net Name=NetC16_2
+Change Net Name : Old Net Name=NetC13_1 New Net Name=NetC3_1
+Change Net Name : Old Net Name=NetC14_1 New Net Name=NetC4_1
+Change Net Name : Old Net Name=NetC15_1 New Net Name=NetC5_1
+Change Net Name : Old Net Name=NetC16_1 New Net Name=NetC6_1
+Change Net Name : Old Net Name=NetR9_1 New Net Name=NetR10_1
+Added Pin To Net: NetName=JC1 Pin=J3-1
+Added Pin To Net: NetName=JC1 Pin=S1-6
+Added Net: Name=JC1
+Added Pin To Net: NetName=JC2 Pin=J3-2
+Added Pin To Net: NetName=JC2 Pin=S2-6
+Added Net: Name=JC2
+Added Pin To Net: NetName=JC3 Pin=J3-3
+Added Pin To Net: NetName=JC3 Pin=S3-6
+Added Net: Name=JC3
+Added Pin To Net: NetName=JC4 Pin=J3-4
+Added Pin To Net: NetName=JC4 Pin=S4-6
+Added Net: Name=JC4
+Added Pin To Net: NetName=JC5 Pin=J3-5
+Added Pin To Net: NetName=JC5 Pin=S5-6
+Added Net: Name=JC5
+Added Pin To Net: NetName=JC6 Pin=J3-6
+Added Pin To Net: NetName=JC6 Pin=S6-6
+Added Net: Name=JC6
+Added Pin To Net: NetName=JF1 Pin=J2-1
+Added Pin To Net: NetName=JF1 Pin=S1-1
+Added Net: Name=JF1
+Added Pin To Net: NetName=JF2 Pin=J2-2
+Added Pin To Net: NetName=JF2 Pin=S2-1
+Added Net: Name=JF2
+Added Pin To Net: NetName=JF3 Pin=J2-3
+Added Pin To Net: NetName=JF3 Pin=S3-1
+Added Net: Name=JF3
+Added Pin To Net: NetName=JF4 Pin=J2-4
+Added Pin To Net: NetName=JF4 Pin=S4-1
+Added Net: Name=JF4
+Added Pin To Net: NetName=JF5 Pin=J2-5
+Added Pin To Net: NetName=JF5 Pin=S5-1
+Added Net: Name=JF5
+Added Pin To Net: NetName=JF6 Pin=J2-6
+Added Pin To Net: NetName=JF6 Pin=S6-1
+Added Net: Name=JF6
+Added Member To Class: ClassName=buttonpad Member=Component J2 JST_7p
+Added Member To Class: ClassName=buttonpad Member=Component J3 JST_7p
+Added Member To Class: ClassName=buttonpad Member=Component J7 JST_7p
+Added Member To Class: ClassName=buttonpad Member=Component J8 JST_7p
+Added Member To Class: ClassName=funcgen Member=Component R3 Res
+Added Member To Class: ClassName=funcgen Member=Component R13 Res
+Added Member To Class: ClassName=buttonpad Member=Component S1 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S2 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S4 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S5 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S6 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S7 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S8 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S9 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S10 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S11 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S12 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S? SW_DPDT
+Added Member To Class: ClassName=funcgen Member=Component U3 TL084
+Added Member To Class: ClassName=funcgen Member=Component VR7 VRes
+Added Member To Class: ClassName=funcgen Member=Component VR8 POT_MT
+Added Member To Class: ClassName=funcgen Member=Component VR9 VRes
+Added Room: Name=buttonpad
+Added Room: Name=funcgen

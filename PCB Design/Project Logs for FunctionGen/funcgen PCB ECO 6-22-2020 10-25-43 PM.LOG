@@ -1,0 +1,11 @@
+Change Component Designator: OldDesignator=VR? NewDesignator=VR6
+Added Component: Designator=J1(JST_6p)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC7_2 Pin=J1-1
+Added Pin To Net: NetName=NetC8_2 Pin=J1-2
+Added Pin To Net: NetName=NetC9_2 Pin=J1-3
+Added Pin To Net: NetName=NetC10_2 Pin=J1-4
+Added Pin To Net: NetName=NetC11_2 Pin=J1-5
+Added Pin To Net: NetName=NetC12_2 Pin=J1-6
+Added Member To Class: ClassName=funcgen Member=Component J1 Pin Header
+Added Room: Name=funcgen

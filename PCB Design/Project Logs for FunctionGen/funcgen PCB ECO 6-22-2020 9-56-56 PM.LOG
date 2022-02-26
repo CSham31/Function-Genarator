@@ -1,0 +1,54 @@
+Removed Member From Class: ClassName=funcgen Member=C7
+Removed Member From Class: ClassName=funcgen Member=C10
+Change Component Designator: OldDesignator=* NewDesignator=C4
+Change Component Designator: OldDesignator=`C? NewDesignator=C1
+Change Component Designator: OldDesignator=C1 NewDesignator=C7
+Change Component Designator: OldDesignator=C2 NewDesignator=C8
+Change Component Designator: OldDesignator=C3 NewDesignator=C9
+Change Component Designator: OldDesignator=C4 NewDesignator=C10
+Change Component Designator: OldDesignator=C5 NewDesignator=C11
+Change Component Designator: OldDesignator=C6 NewDesignator=C12
+Change Component Designator: OldDesignator=C7 NewDesignator=C2
+Change Component Designator: OldDesignator=C8 NewDesignator=C3
+Change Component Designator: OldDesignator=C9 NewDesignator=C5
+Change Component Designator: OldDesignator=C10 NewDesignator=C6
+Change Component Designator: OldDesignator=R1 NewDesignator=R9
+Change Component Designator: OldDesignator=R2 NewDesignator=R10
+Change Component Designator: OldDesignator=R3 NewDesignator=R11
+Change Component Designator: OldDesignator=R4 NewDesignator=R12
+Change Component Designator: OldDesignator=R5 NewDesignator=R1
+Change Component Designator: OldDesignator=R6 NewDesignator=R2
+Change Component Designator: OldDesignator=R7 NewDesignator=R3
+Change Component Designator: OldDesignator=R8 NewDesignator=R4
+Change Component Designator: OldDesignator=R9 NewDesignator=R5
+Change Component Designator: OldDesignator=R10 NewDesignator=R6
+Change Component Designator: OldDesignator=R11 NewDesignator=R7
+Change Component Designator: OldDesignator=R12 NewDesignator=R8
+Change Component Designator: OldDesignator=U1 NewDesignator=U2
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Change Component Designator: OldDesignator=VR1 NewDesignator=VR2
+Change Component Designator: OldDesignator=VR2 NewDesignator=VR3
+Change Component Designator: OldDesignator=VR3 NewDesignator=VR5
+Change Component Designator: OldDesignator=VR4 NewDesignator=VR6
+Change Component Designator: OldDesignator=VR5 NewDesignator=VR1
+Change Component Designator: OldDesignator=VR6 NewDesignator=VR4
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetC2_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC5_2
+Change Net Name : Old Net Name=NetC10_1 New Net Name=NetC6_1
+Change Net Name : Old Net Name=NetC10_2 New Net Name=NetC6_2
+Change Net Name : Old Net Name=NetR1_1 New Net Name=NetR9_1
+Added Pin To Net: NetName=NetC7_2 Pin=C7-2
+Added Net: Name=NetC7_2
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Net: Name=NetC8_2
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Net: Name=NetC9_2
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Net: Name=NetC10_2
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Net: Name=NetC11_2
+Added Pin To Net: NetName=NetC12_2 Pin=C12-2
+Added Net: Name=NetC12_2
+Added Member To Class: ClassName=funcgen Member=Component C11 Cap_pol
+Added Member To Class: ClassName=funcgen Member=Component C12 Cap_pol
+Added Room: Name=funcgen

@@ -1,0 +1,17 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~173|Field=Designator~String~Designator~368|Field=LibRef~String~LibRef~104|Field=Quantity~Integer~Quantity~104|Field=Value~String~Value~170|Field=Time~String~Time~20|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~FunctionGen.PrjPcb|ReportField=ProjectFullPath~F:\S3lab\PCB\FunctionGen\FunctionGen.PrjPcb|ReportField=Title~Bill of Materials For Project [FunctionGen.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~80|ReportField=ReportTime~11:52:13 AM|ReportField=ReportDate~9/17/2020|ReportField=ReportDateTime~9/17/2020 11:52:13 AM|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~9/17/2020|ReportField=CurrentTime~11:47:09 AM|ReportField=Date~|ReportField=DocumentFullPathAndName~F:\S3lab\PCB\FunctionGen\buttonpad.SchDoc|ReportField=DocumentName~buttonpad.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~7/29/2020|ReportField=Organization~|ReportField=ProjectName~FunctionGen.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~FunctionGen.PrjPcb|ReportField=DataSourceFullPath~F:\S3lab\PCB\FunctionGen\FunctionGen.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|BNC|J2|BNC|1||
+2|Diode_Bridge|U7|Diode_Bridge|1||
+3|Jst|J12, J13, J14|Jst_3p|3||
+4|JST_7p|J1, J3, J5, J6, J7, J8, J9, J10|JST_7p|8||
+5|LM7812|U6|LM7812|1||
+6|LM7912|U?|LM7912|1||
+7|Pin Header|J4, J11|JST_6p|2||
+8|SW_DPDT|S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13, S14|SW_DPDT|14||
+9|TIP 31|U1|TIP 31|1||
+10|TIP 32|U3|TIP 32|1||
+11|TL084|U2, U4, U5|TL084|3||
+12|Res|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13|Res|13|1k, 10k, 50k, 1k, 5k, 50k, 3k, 1k, 10k, 100k, 10k, 11.6k, 1k|
+13|VRes|VR3, VR4, VR5, VR7, VR9|VRes|5|10k, 5k, 100k, 5k, 10k|
+14|POT_MT|VR1, VR2, VR6, VR8|POT_MT|4|10k, 100k, 10k, 100k|
+15|Cap_pol|C7, C8, C9, C10, C11, C12, C13, C14, C15, C16|Cap_pol|10|10uF, 10uF, 1uF, 10uF, 10u, 1u, 100n, 10n, 1n, 100p|
+16|Cap_NP|C1, C2, C3, C4, C5, C6, C17, C18, C19, C20, C21, C22|Cap_NP|12|[NoValue], [NoValue], [NoValue], [NoValue], [NoValue], [NoValue], 2200uF, 100nF, 10uF, 2200uF, 10uF, 100nF|

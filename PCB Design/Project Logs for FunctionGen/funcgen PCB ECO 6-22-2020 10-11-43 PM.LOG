@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=2IN- Pin=VR?-1
+Removed Pin From Net: NetName=2IN- Pin=VR?-2
+Removed Pin From Net: NetName=AOUT2 Pin=VR?-3
+Added Pin To Net: NetName=AOUT2 Pin=VR?-1
+Added Pin To Net: NetName=AOUT2 Pin=VR?-2
+Added Pin To Net: NetName=2IN- Pin=VR?-3
+Added Room: Name=funcgen

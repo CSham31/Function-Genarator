@@ -1,0 +1,217 @@
+Added Component: Designator=C17(Cap NP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2200uF"; VariantName = "[No Variations]"
+Added Component: Designator=C18(Cap NP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C19(Cap NP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C20(Cap NP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "2200uF"; VariantName = "[No Variations]"
+Added Component: Designator=C21(Cap NP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C22(Cap NP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=J7(JST_7p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J8(JST_7p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J9(JST_7p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J10(JST_7p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J11(JST_6p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J12(Jst_3p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J13(Jst_3p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J14(Jst_3p)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S1(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S2(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S3(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S4(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S5(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S6(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S7(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S8(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S9(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S10(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S11(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S12(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S13(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S14(SW DPDT)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U6(TIP 31)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U7(Diode_Bridge)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U8(TIP 31)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=2IN+ Pin=C17-1
+Added Pin To Net: NetName=2IN+ Pin=C18-1
+Added Pin To Net: NetName=Vcc+ Pin=C18-2
+Added Pin To Net: NetName=2IN+ Pin=C19-1
+Added Pin To Net: NetName=Vcc+ Pin=C19-2
+Added Pin To Net: NetName=2IN+ Pin=C20-2
+Added Pin To Net: NetName=Vcc- Pin=C21-1
+Added Pin To Net: NetName=2IN+ Pin=C21-2
+Added Pin To Net: NetName=Vcc- Pin=C22-1
+Added Pin To Net: NetName=2IN+ Pin=C22-2
+Added Pin To Net: NetName=JF1 Pin=J7-1
+Added Pin To Net: NetName=JF2 Pin=J7-2
+Added Pin To Net: NetName=JF3 Pin=J7-3
+Added Pin To Net: NetName=JF4 Pin=J7-4
+Added Pin To Net: NetName=JF5 Pin=J7-5
+Added Pin To Net: NetName=JF6 Pin=J7-6
+Added Pin To Net: NetName=2IN+ Pin=J7-7
+Added Pin To Net: NetName=AOUT2 Pin=J8-1
+Added Pin To Net: NetName=4IN+ Pin=J8-2
+Added Pin To Net: NetName=AOUT4 Pin=J8-3
+Added Pin To Net: NetName=PWM in Pin=J8-4
+Added Pin To Net: NetName=Sine in Pin=J8-5
+Added Pin To Net: NetName=Signal Out Pin=J8-6
+Added Pin To Net: NetName=SO1X Pin=J8-7
+Added Pin To Net: NetName=SO10X Pin=J9-1
+Added Pin To Net: NetName=AOUT7 Pin=J9-2
+Added Pin To Net: NetName=AOUT5 Pin=J9-3
+Added Pin To Net: NetName=7IN- Pin=J9-4
+Added Pin To Net: NetName=5IN- Pin=J9-5
+Added Pin To Net: NetName=INTA Pin=J9-6
+Added Pin To Net: NetName=JC1 Pin=J10-1
+Added Pin To Net: NetName=JC2 Pin=J10-2
+Added Pin To Net: NetName=JC3 Pin=J10-3
+Added Pin To Net: NetName=JC4 Pin=J10-4
+Added Pin To Net: NetName=JC5 Pin=J10-5
+Added Pin To Net: NetName=JC6 Pin=J10-6
+Added Pin To Net: NetName=INTA Pin=J10-7
+Added Pin To Net: NetName=2IN+ Pin=J11-1
+Added Pin To Net: NetName=POTOF Pin=J11-6
+Added Pin To Net: NetName=2IN+ Pin=J12-2
+Added Pin To Net: NetName=Vcc+ Pin=J13-1
+Added Pin To Net: NetName=2IN+ Pin=J13-2
+Added Pin To Net: NetName=Vcc- Pin=J13-3
+Added Pin To Net: NetName=Vcc+ Pin=J14-1
+Added Pin To Net: NetName=2IN+ Pin=J14-2
+Added Pin To Net: NetName=Vcc- Pin=J14-3
+Added Pin To Net: NetName=JF1 Pin=S1-1
+Added Pin To Net: NetName=INTA Pin=S1-5
+Added Pin To Net: NetName=JC1 Pin=S1-6
+Added Pin To Net: NetName=AOUT5 Pin=S2-1
+Added Pin To Net: NetName=INTB Pin=S2-2
+Added Pin To Net: NetName=AOUT7 Pin=S2-3
+Added Pin To Net: NetName=7IN- Pin=S2-4
+Added Pin To Net: NetName=INTA Pin=S2-5
+Added Pin To Net: NetName=5IN- Pin=S2-6
+Added Pin To Net: NetName=Signal Out Pin=S3-1
+Added Pin To Net: NetName=AOUT2 Pin=S3-2
+Added Pin To Net: NetName=AOUT2 Pin=S3-5
+Added Pin To Net: NetName=Signal Out Pin=S3-6
+Added Pin To Net: NetName=JF2 Pin=S4-1
+Added Pin To Net: NetName=2IN+ Pin=S4-2
+Added Pin To Net: NetName=INTA Pin=S4-5
+Added Pin To Net: NetName=JC2 Pin=S4-6
+Added Pin To Net: NetName=Signal Out Pin=S5-1
+Added Pin To Net: NetName=4IN+ Pin=S5-2
+Added Pin To Net: NetName=4IN+ Pin=S5-5
+Added Pin To Net: NetName=Signal Out Pin=S5-6
+Added Pin To Net: NetName=SO1X Pin=S6-1
+Added Pin To Net: NetName=Signal Out Pin=S6-2
+Added Pin To Net: NetName=SO10X Pin=S6-3
+Added Pin To Net: NetName=SO10X Pin=S6-4
+Added Pin To Net: NetName=Signal Out Pin=S6-5
+Added Pin To Net: NetName=SO1X Pin=S6-6
+Added Pin To Net: NetName=JF3 Pin=S7-1
+Added Pin To Net: NetName=2IN+ Pin=S7-2
+Added Pin To Net: NetName=INTA Pin=S7-5
+Added Pin To Net: NetName=JC3 Pin=S7-6
+Added Pin To Net: NetName=Signal Out Pin=S8-1
+Added Pin To Net: NetName=AOUT4 Pin=S8-2
+Added Pin To Net: NetName=AOUT4 Pin=S8-5
+Added Pin To Net: NetName=Signal Out Pin=S8-6
+Added Pin To Net: NetName=JF4 Pin=S9-1
+Added Pin To Net: NetName=2IN+ Pin=S9-2
+Added Pin To Net: NetName=INTA Pin=S9-5
+Added Pin To Net: NetName=JC4 Pin=S9-6
+Added Pin To Net: NetName=POTOF Pin=S10-1
+Added Pin To Net: NetName=VREF Pin=S10-2
+Added Pin To Net: NetName=2IN+ Pin=S10-3
+Added Pin To Net: NetName=2IN+ Pin=S10-4
+Added Pin To Net: NetName=VREF Pin=S10-5
+Added Pin To Net: NetName=POTOF Pin=S10-6
+Added Pin To Net: NetName=Signal Out Pin=S11-1
+Added Pin To Net: NetName=PWM in Pin=S11-2
+Added Pin To Net: NetName=PWM in Pin=S11-5
+Added Pin To Net: NetName=Signal Out Pin=S11-6
+Added Pin To Net: NetName=JF5 Pin=S12-1
+Added Pin To Net: NetName=2IN+ Pin=S12-2
+Added Pin To Net: NetName=INTA Pin=S12-5
+Added Pin To Net: NetName=JC5 Pin=S12-6
+Added Pin To Net: NetName=Signal Out Pin=S13-1
+Added Pin To Net: NetName=Sine in Pin=S13-2
+Added Pin To Net: NetName=Sine in Pin=S13-5
+Added Pin To Net: NetName=Signal Out Pin=S13-6
+Added Pin To Net: NetName=JF6 Pin=S14-1
+Added Pin To Net: NetName=2IN+ Pin=S14-2
+Added Pin To Net: NetName=INTA Pin=S14-5
+Added Pin To Net: NetName=JC6 Pin=S14-6
+Added Pin To Net: NetName=2IN+ Pin=U6-2
+Added Pin To Net: NetName=Vcc+ Pin=U6-3
+Added Pin To Net: NetName=2IN+ Pin=U8-1
+Added Pin To Net: NetName=Vcc- Pin=U8-3
+Added Pin To Net: NetName=NetC17_2 Pin=C17-2
+Added Pin To Net: NetName=NetC17_2 Pin=U6-1
+Added Pin To Net: NetName=NetC17_2 Pin=U7-1
+Added Net: Name=NetC17_2
+Added Pin To Net: NetName=NetC20_1 Pin=C20-1
+Added Pin To Net: NetName=NetC20_1 Pin=U7-4
+Added Pin To Net: NetName=NetC20_1 Pin=U8-2
+Added Net: Name=NetC20_1
+Added Pin To Net: NetName=TRA Pin=J12-1
+Added Pin To Net: NetName=TRA Pin=U7-2
+Added Net: Name=TRA
+Added Pin To Net: NetName=TRB Pin=J12-3
+Added Pin To Net: NetName=TRB Pin=U7-3
+Added Net: Name=TRB
+Added Class: Name=PwrSup
+Added Member To Class: ClassName=buttonpad Member=Component J7 JST_7p
+Added Member To Class: ClassName=buttonpad Member=Component J8 JST_7p
+Added Member To Class: ClassName=buttonpad Member=Component J9 JST_7p
+Added Member To Class: ClassName=buttonpad Member=Component J10 JST_7p
+Added Member To Class: ClassName=buttonpad Member=Component J11 Pin Header
+Added Member To Class: ClassName=funcgen Member=Component J14 Jst
+Added Member To Class: ClassName=buttonpad Member=Component S1 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S2 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S3 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S4 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S5 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S6 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S7 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S8 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S9 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S10 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S11 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S12 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S13 SW_DPDT
+Added Member To Class: ClassName=buttonpad Member=Component S14 SW_DPDT
+Added Room: Name=buttonpad
+Added Room: Name=funcgen
+Added Room: Name=PwrSup

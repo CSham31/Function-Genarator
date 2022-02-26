@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=2IN- Pin=VR6-1
+Removed Pin From Net: NetName=2IN- Pin=VR6-2
+Removed Pin From Net: NetName=AOUT2 Pin=VR6-3
+Removed Member From Class: ClassName=funcgen Member=VR6
+Added Component: Designator=VR?(VerRes)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=2IN- Pin=VR?-1
+Added Pin To Net: NetName=2IN- Pin=VR?-2
+Added Pin To Net: NetName=AOUT2 Pin=VR?-3
+Added Member To Class: ClassName=funcgen Member=Component C10 Cap_pol
+Added Member To Class: ClassName=funcgen Member=Component VR? VRes
+Added Room: Name=funcgen

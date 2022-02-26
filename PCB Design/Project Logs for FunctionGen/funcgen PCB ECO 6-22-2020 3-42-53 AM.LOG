@@ -1,0 +1,8 @@
+Added Component: Designator=VR1(VerRes)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=2IN+ Pin=VR1-1
+Added Pin To Net: NetName=3IN- Pin=VR1-2
+Added Pin To Net: NetName=4IN+ Pin=VR1-3
+Added Member To Class: ClassName=funcgen Member=Component VR1 VRes
+Added Room: Name=funcgen

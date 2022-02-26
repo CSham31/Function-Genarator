@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=`` NewDesignator=`C?
+Change component parameters: Designator = "`C?"; Footprint = "Cap NP"; UniqueID = "\JYPEOVGQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "50uF"; VariantName = "[No Variations]"
+Added Room: Name=funcgen

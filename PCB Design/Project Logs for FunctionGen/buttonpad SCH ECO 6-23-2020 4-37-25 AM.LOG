@@ -1,0 +1,94 @@
+Remove Pin=J2-2 From Net=AOUT7
+Remove Pin=J2-3 From Net=AOUT5
+Remove Pin=J2-4 From Net=7IN-
+Remove Pin=J2-5 From Net=5IN-
+Remove Pin=J2-6 From Net=INTA
+Remove Pin=J3-1 From Net=AOUT2
+Remove Pin=J3-2 From Net=4IN+
+Remove Pin=J3-3 From Net=AOUT4
+Remove Pin=J3-4 From Net=PWM in
+Remove Pin=J5-1 From Net=JF1
+Remove Pin=J5-2 From Net=JF2
+Remove Pin=J5-3 From Net=JF3
+Remove Pin=J5-4 From Net=JF4
+Remove Pin=J5-5 From Net=JF5
+Remove Pin=J5-6 From Net=JF6
+Remove Pin=J6-1 From Net=AOUT2
+Remove Pin=J6-2 From Net=AOUT3
+Remove Pin=J6-3 From Net=AOUT4
+Remove Pin=J6-4 From Net=PWM in
+Remove Pin=J7-2 From Net=INT2B
+Remove Pin=J7-3 From Net=INT1B
+Remove Pin=J7-4 From Net=INT2A
+Remove Pin=J7-5 From Net=INT1A
+Remove Pin=J7-6 From Net=INTA
+Remove Pin=J8-1 From Net=JC1
+Remove Pin=J8-2 From Net=JC2
+Remove Pin=J8-3 From Net=JC3
+Remove Pin=J8-4 From Net=JC4
+Remove Pin=J8-5 From Net=JC5
+Remove Pin=J8-6 From Net=JC6
+Remove Pin=J8-7 From Net=INTA
+Remove Pin=S1-1 From Net=JF1
+Remove Pin=S1-5 From Net=INTA
+Remove Pin=S1-6 From Net=JC1
+Remove Pin=S2-1 From Net=INT1B
+Remove Pin=S2-3 From Net=INT2B
+Remove Pin=S2-4 From Net=INT2A
+Remove Pin=S2-5 From Net=INTA
+Remove Pin=S2-6 From Net=INT1A
+Remove Pin=S4-1 From Net=JF2
+Remove Pin=S4-5 From Net=INTA
+Remove Pin=S4-6 From Net=JC2
+Remove Pin=S7-1 From Net=JF3
+Remove Pin=S7-6 From Net=JC3
+Remove Pin=S9-1 From Net=JF4
+Remove Pin=S9-5 From Net=INTA
+Remove Pin=S9-6 From Net=JC4
+Remove Pin=S11-1 From Net=JF5
+Remove Pin=S11-5 From Net=INTA
+Remove Pin=S11-6 From Net=JC5
+Remove Pin=S13-1 From Net=JF6
+Remove Pin=S13-5 From Net=INTA
+Remove Pin=S13-6 From Net=JC6
+Change Component Designator: OldDesignator=C2 NewDesignator=C4
+Change Component Designator: OldDesignator=C3 NewDesignator=C13
+Change Component Designator: OldDesignator=C4 NewDesignator=C14
+Change Component Designator: OldDesignator=C5 NewDesignator=C15
+Change Component Designator: OldDesignator=C6 NewDesignator=C16
+Change Component Designator: OldDesignator=C7 NewDesignator=C2
+Change Component Designator: OldDesignator=C8 NewDesignator=C3
+Change Component Designator: OldDesignator=C9 NewDesignator=C5
+Change Component Designator: OldDesignator=C10 NewDesignator=C6
+Change Component Designator: OldDesignator=C11 NewDesignator=C7
+Change Component Designator: OldDesignator=C12 NewDesignator=C8
+Change Component Designator: OldDesignator=C13 NewDesignator=C9
+Change Component Designator: OldDesignator=C14 NewDesignator=C10
+Change Component Designator: OldDesignator=C15 NewDesignator=C11
+Change Component Designator: OldDesignator=C16 NewDesignator=C12
+Change Component Designator: OldDesignator=J1 NewDesignator=J4
+Change Component Designator: OldDesignator=J4 NewDesignator=J1
+Change Component Designator: OldDesignator=R3 NewDesignator=R1
+Change Component Designator: OldDesignator=R4 NewDesignator=R2
+Change Component Designator: OldDesignator=R5 NewDesignator=R4
+Change Component Designator: OldDesignator=R6 NewDesignator=R5
+Change Component Designator: OldDesignator=R7 NewDesignator=R6
+Change Component Designator: OldDesignator=R8 NewDesignator=R7
+Change Component Designator: OldDesignator=R9 NewDesignator=R8
+Change Component Designator: OldDesignator=R10 NewDesignator=R9
+Change Component Designator: OldDesignator=R11 NewDesignator=R10
+Change Component Designator: OldDesignator=R12 NewDesignator=R11
+Change Component Designator: OldDesignator=R13 NewDesignator=R12
+Change Component Designator: OldDesignator=U2 NewDesignator=U1
+Change Component Designator: OldDesignator=U3 NewDesignator=U2
+Change Component Designator: OldDesignator=VR3 NewDesignator=VR1
+Change Component Designator: OldDesignator=VR5 NewDesignator=VR2
+Change Component Designator: OldDesignator=VR6 NewDesignator=VR3
+Change Component Designator: OldDesignator=VR7 NewDesignator=VR4
+Change Component Designator: OldDesignator=VR8 NewDesignator=VR5
+Change Component Designator: OldDesignator=VR9 NewDesignator=VR6
+Add Pin To Net: Pin=S7-1 Old Net=JF3 New Net=INT1A
+Add Pin To Net: Pin=S7-3 Old Net=NetS7_3 New Net=INT2A
+Add Pin To Net: Pin=S7-4 Old Net=NetS7_4 New Net=INT2B
+Add Pin To Net: Pin=S7-6 Old Net=JC3 New Net=INT1B
+Change Pin Designator/Name:  Old Designator=S7-5 Old Name=5 New Designator =2 New Name=2

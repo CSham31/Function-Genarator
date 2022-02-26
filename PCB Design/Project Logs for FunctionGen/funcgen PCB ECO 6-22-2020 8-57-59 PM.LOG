@@ -1,0 +1,18 @@
+Added Component: Designator=U1(TL084)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=OUT1 Pin=U1-1
+Added Pin To Net: NetName=1IN- Pin=U1-2
+Added Pin To Net: NetName=1IN+ Pin=U1-3
+Added Pin To Net: NetName=Vcc+ Pin=U1-4
+Added Pin To Net: NetName=2IN+ Pin=U1-5
+Added Pin To Net: NetName=2IN- Pin=U1-6
+Added Pin To Net: NetName=OUT2 Pin=U1-7
+Added Pin To Net: NetName=4IN+ Pin=U1-8
+Added Pin To Net: NetName=3IN- Pin=U1-9
+Added Pin To Net: NetName=1IN- Pin=U1-10
+Added Pin To Net: NetName=Vcc- Pin=U1-11
+Added Pin To Net: NetName=4IN+ Pin=U1-12
+Added Pin To Net: NetName=4IN- Pin=U1-13
+Added Pin To Net: NetName=OUT4 Pin=U1-14
+Added Member To Class: ClassName=funcgen Member=Component U1 TL084
+Added Room: Name=funcgen

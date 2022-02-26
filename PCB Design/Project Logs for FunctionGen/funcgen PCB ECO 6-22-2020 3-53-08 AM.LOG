@@ -1,0 +1,49 @@
+Added Component: Designator=C6(Cap pol)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R1(Res)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R4(Res)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VR2(POT MT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VR3(POT MT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=VR4(POT MT)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=1IN- Pin=C6-1
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=OUT1 Pin=R1-2
+Added Pin To Net: NetName=2IN+ Pin=R4-1
+Added Pin To Net: NetName=1IN+ Pin=R4-2
+Added Pin To Net: NetName=Vcc+ Pin=VR2-1
+Added Pin To Net: NetName=Vcc+ Pin=VR2-1
+Added Pin To Net: NetName=4IN- Pin=VR2-2
+Added Pin To Net: NetName=4IN- Pin=VR2-2
+Added Pin To Net: NetName=Vcc- Pin=VR2-3
+Added Pin To Net: NetName=Vcc- Pin=VR2-3
+Added Pin To Net: NetName=1IN- Pin=VR3-1
+Added Pin To Net: NetName=1IN- Pin=VR3-1
+Added Pin To Net: NetName=1IN- Pin=VR3-2
+Added Pin To Net: NetName=1IN- Pin=VR3-2
+Added Pin To Net: NetName=NetR1_1 Pin=VR3-3
+Added Pin To Net: NetName=NetR1_1 Pin=VR3-3
+Added Pin To Net: NetName=2IN- Pin=VR4-1
+Added Pin To Net: NetName=2IN- Pin=VR4-1
+Added Pin To Net: NetName=2IN- Pin=VR4-2
+Added Pin To Net: NetName=2IN- Pin=VR4-2
+Added Pin To Net: NetName=OUT2 Pin=VR4-3
+Added Pin To Net: NetName=OUT2 Pin=VR4-3
+Added Member To Class: ClassName=funcgen Member=Component C6 Cap_pol
+Added Member To Class: ClassName=funcgen Member=Component R1 Res
+Added Member To Class: ClassName=funcgen Member=Component R4 Res
+Added Member To Class: ClassName=funcgen Member=Component VR2 POT_MT
+Added Member To Class: ClassName=funcgen Member=Component VR3 POT_MT
+Added Member To Class: ClassName=funcgen Member=Component VR4 POT_MT
+Added Room: Name=funcgen

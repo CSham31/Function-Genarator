@@ -1,0 +1,10 @@
+Added Component: Designator=J?(JST_7p)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC7_2 Pin=J?-1
+Added Pin To Net: NetName=NetC8_2 Pin=J?-2
+Added Pin To Net: NetName=NetC9_2 Pin=J?-3
+Added Pin To Net: NetName=NetC10_2 Pin=J?-4
+Added Pin To Net: NetName=NetC11_2 Pin=J?-5
+Added Pin To Net: NetName=NetC12_2 Pin=J?-6
+Added Pin To Net: NetName=2IN+ Pin=J?-7
+Added Member To Class: ClassName=funcgen Member=Component J? JST_7p
