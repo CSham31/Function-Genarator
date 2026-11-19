@@ -155,7 +155,9 @@ There are two common methods:
 
 We used **Method II** because it integrates easily with the rest of the circuit.
 
-<p align="center"><img src="images/triangular_generation.png" alt="Triangular wave generation" width="450"></p>
+| Triangular Wave Generation | With Schmitt Trigger |
+|---|---|
+| <img src="images/triangular_generation.png" width="380"> | <img src="images/triangular_schmitt.png" width="300"> |
 
 ### 3. PWM Wave
 
@@ -172,19 +174,19 @@ A sawtooth is a triangular wave with **unequal rise and fall times**. We get it 
 
 A DC voltage on the integrator's non-inverting input also shifts the rise and fall times. When it is zero, the output is a pure triangle.
 
-<p align="center"><img src="images/sawtooth_integrator.png" alt="Sawtooth integrator" width="450"></p>
+<p align="center"><img src="images/sawtooth_integrator.png" alt="Sawtooth integrator" width="550"></p>
 
 ### 5. Sine Wave
 
 We considered several options: Wien bridge, phase-shift, Colpitts / crystal oscillators, pulse-based synthesis, and wave shaping with filtering. We chose **filtering**. By Fourier theory, a triangle wave is mostly its fundamental with small odd harmonics. Passing the **amplified triangular wave through a low-pass filter** removes the harmonics and leaves a sine wave at the same frequency.
 
-<p align="center"><img src="images/sine_generation.png" alt="Sine wave generation" width="450"></p>
+<p align="center"><img src="images/sine_generation.png" alt="Sine wave generation" width="600"></p>
 
 ---
 
 ## Output Stage
 
-<p align="center"><img src="images/output_circuit.png" alt="Output circuit" width="500"></p>
+<p align="center"><img src="images/output_circuit.png" alt="Output circuit" width="650"></p>
 
 ### Summing Amplifier: Amplitude & DC Offset
 
@@ -209,7 +211,7 @@ A complementary **TIP31 (NPN) / TIP32 (PNP)** push-pull stage drives current in 
 
 ## Power Supply
 
-<p align="center"><img src="images/power_supply.png" alt="Power supply circuit" width="500"></p>
+<p align="center"><img src="images/power_supply.png" alt="Power supply circuit" width="650"></p>
 
 This is lab equipment that has to run for long periods, so it is **mains powered** instead of battery powered.
 
@@ -238,7 +240,7 @@ Mains AC ─▶ Fuse ─▶ Step-down Transformer ─▶ Bridge Rectifier (GBU6M
 | Frequency ranges | **Discrete switched capacitor set** | Coarse range selection |
 | Selectors | **Locking DPDT switches** | Waveform / range selection |
 
-<p align="center"><img src="images/capacitor_set.png" alt="Capacitor set" width="400"></p>
+<p align="center"><img src="images/capacitor_set.png" alt="Capacitor set" width="250"></p>
 
 **Op-amp bandwidth check** (from the report): with a GBW of 1 MHz at 20 kHz,
 
@@ -264,15 +266,15 @@ Simulation files are in [`Simulation/`](Simulation/).
 
 ### Power Supply
 
-| Circuit | Output |
+| Circuit | Output (±12 V rails) |
 |---|---|
-| <img src="images/sim_power_supply_circuit.png" width="380"> | <img src="images/sim_power_supply_output.png" width="380"> |
+| <img src="images/sim_power_supply_circuit.png" width="420"> | <img src="images/sim_power_supply_output.png" width="380"> |
 
 ### Output Circuit
 
 | Circuit | Input Signal |
 |---|---|
-| <img src="images/sim_output_circuit.png" width="380"> | <img src="images/sim_output_input.png" width="380"> |
+| <img src="images/sim_output_circuit.png" width="420"> | <img src="images/sim_output_input.png" width="220"> |
 
 | Amplitude Change | DC Offset |
 |---|---|
@@ -280,15 +282,27 @@ Simulation files are in [`Simulation/`](Simulation/).
 
 ### Main Circuit
 
-<p align="center"><img src="images/sim_main_circuit.png" alt="Main circuit" width="650"></p>
+<p align="center"><img src="images/sim_main_circuit.png" alt="Main circuit" width="750"></p>
 
-| Square Wave | 20 Hz | 20 kHz |
-|---|---|---|
-| <img src="images/sim_square.png" width="250"> | <img src="images/sim_20hz.png" width="250"> | <img src="images/sim_20khz.png" width="250"> |
+**Frequency range** (measured with the frequency counter at the two ends of the range)
 
-| Triangular | PWM | Sawtooth | Sine |
-|---|---|---|---|
-| <img src="images/sim_triangle.png" width="190"> | <img src="images/sim_pwm.png" width="190"> | <img src="images/sim_sawtooth.png" width="190"> | <img src="images/sim_sine.png" width="190"> |
+| Minimum (~20 Hz) | Maximum (~20 kHz) |
+|---|---|
+| <img src="images/sim_20hz.png" width="320"> | <img src="images/sim_20khz.png" width="320"> |
+
+**Output waveforms**
+
+| Square | Triangular |
+|---|---|
+| <img src="images/sim_square.png" width="380"> | <img src="images/sim_triangle.png" width="380"> |
+
+| PWM | Sawtooth |
+|---|---|
+| <img src="images/sim_pwm.png" width="380"> | <img src="images/sim_sawtooth.png" width="380"> |
+
+| Sine |
+|---|
+| <img src="images/sim_sine.png" width="380"> |
 
 ---
 
@@ -298,15 +312,19 @@ Simulation files are in [`Simulation/`](Simulation/).
 
 Full schematics are in [`Hardware/Schematics/`](Hardware/Schematics/).
 
-<p align="center"><img src="images/schematic.png" alt="Schematic" width="650"></p>
+The complete circuit (all wave-generation stages, capacitor bank and output switches) is shown in the [Main Circuit simulation](#main-circuit). Each stage is described in [Wave Generation](#wave-generation).
 
 ### PCB
 
-The PCB layout source files are in [`Hardware/PCB/`](Hardware/PCB/).
+The PCB layout source files are in [`Hardware/PCB/`](Hardware/PCB/). The design is split into three boards.
 
-| Top Layer | Bottom Layer | 3D View |
-|---|---|---|
-| <img src="images/pcb_top.png" width="250"> | <img src="images/pcb_bottom.png" width="250"> | <img src="images/pcb_3d.png" width="250"> |
+**Main Circuit Board**
+
+<p align="center"><img src="images/pcb_main_circuit.png" alt="Main circuit PCB" width="650"></p>
+
+| Button Panel | Power Supply |
+|---|---|
+| <img src="images/pcb_button_panel.png" width="450"> | <img src="images/pcb_power_supply.png" width="300"> |
 
 ### Gerber Files
 
@@ -321,9 +339,9 @@ To order boards:
 
 The enclosure CAD files are in [`Enclosure/`](Enclosure/).
 
-| Exploded View | Front (Isometric) | Back (Isometric) |
+| Isometric | Front Panel | Back Panel |
 |---|---|---|
-| <img src="images/enclosure_exploded.png" width="250"> | <img src="images/enclosure_front.png" width="250"> | <img src="images/enclosure_back.png" width="250"> |
+| <img src="images/enclosure_isometric.png" width="270"> | <img src="images/enclosure_front.png" width="270"> | <img src="images/enclosure_back.png" width="270"> |
 
 ---
 
@@ -333,10 +351,10 @@ The enclosure CAD files are in [`Enclosure/`](Enclosure/).
    ```bash
    git clone https://github.com/<your-username>/Analog-Function-Generator.git
    ```
-2. **Run the simulations:** open the files in `Simulation/` with the simulator they were made in (e.g. Multisim / LTspice / Proteus).
-3. **Review the hardware:** open the schematic and PCB files in `Hardware/` with your EDA tool (e.g. Altium / KiCad / EasyEDA).
+2. **Run the simulations:** open the files in `Simulation/` with NI Multisim.
+3. **Review the hardware:** open the schematic and PCB files in `Hardware/` with your EDA tool.
 4. **Fabricate:** send `Hardware/Gerber/` to a PCB manufacturer.
-5. **Assemble:** solder the components, fit the board into the enclosure, and wire up the panel pots, switches and output connector.
+5. **Assemble:** solder the components, fit the boards into the enclosure, and wire up the panel pots, switches and output connector.
 
 > ⚠️ **Safety:** The power supply connects to **mains voltage**. Always use the fuse, insulate every mains connection, and never work on the board while it is plugged in.
 
