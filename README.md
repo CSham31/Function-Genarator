@@ -349,7 +349,7 @@ The enclosure CAD files are in [`Enclosure/`](Enclosure/).
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/<your-username>/Analog-Function-Generator.git
+   git clone https://github.com/CSham31/Analog-Function-Generator.git
    ```
 2. **Run the simulations:** open the files in `Simulation/` with NI Multisim.
 3. **Review the hardware:** open the schematic and PCB files in `Hardware/` with your EDA tool.
